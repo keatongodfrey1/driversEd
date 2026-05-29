@@ -85,5 +85,5 @@ node dom.test.js      # drives the full UI in jsdom (npm install jsdom --no-save
 
 ---
 
-*Unofficial study aid. Always confirm current rules in the official
-[Utah Driver Handbook](https://dld.utah.gov).*
+*Unofficial study aid. Always confirm current rules on the official
+[Utah DLD learner permit page](https://dld.utah.gov/learner-permit/).*
