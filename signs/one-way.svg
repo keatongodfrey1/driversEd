@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="One Way sign">
+  <rect x="8" y="32" width="84" height="36" rx="2" fill="#111" stroke="#fff" stroke-width="3"/>
+  <polygon points="18,50 60,50 60,42 80,50 60,58 60,50" fill="#fff"/>
+  <text x="44" y="50" fill="#fff" font-family="Arial, sans-serif" font-size="9"
+        font-weight="bold" text-anchor="middle" dominant-baseline="central">ONE WAY</text>
+</svg>

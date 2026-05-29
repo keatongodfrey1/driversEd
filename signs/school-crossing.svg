@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="School crossing sign">
+  <!-- 5-sided pentagon (home-plate, point up) in fluorescent yellow-green -->
+  <polygon points="50,4 92,36 76,92 24,92 8,36" fill="#bfe000" stroke="#222" stroke-width="3"/>
+  <circle cx="42" cy="40" r="4.5" fill="#222"/>
+  <path d="M42 45 V62 M42 50 L33 57 M42 50 L52 55 M42 62 L36 78 M42 62 L50 78"
+        stroke="#222" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <circle cx="60" cy="44" r="4" fill="#222"/>
+  <path d="M60 48 V62 M60 52 L52 58 M60 52 L68 57 M60 62 L55 76 M60 62 L66 76"
+        stroke="#222" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
