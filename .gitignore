@@ -1,3 +1,6 @@
+# Source study PDFs — kept locally, not tracked (the live site uses questions.json only)
+*.pdf
+
 # Extracted text scratch files (regenerate with pdftotext if needed)
 *.txt
 
