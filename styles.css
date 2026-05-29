@@ -80,11 +80,14 @@ h2 { margin-top: 0; font-size: 1.2rem; }
 }
 .divider span { background: var(--card); padding: 0 12px; position: relative; font-size: 0.85rem; }
 
-.topic-row { display: flex; gap: 10px; }
+/* Stack the dropdown and button by default so nothing is cut off on small phones
+   (long topic names were forcing the select wide and pushing the button off-screen). */
+.topic-row { display: flex; flex-direction: column; gap: 10px; }
 .topic-row select {
-  flex: 1; font: inherit; padding: 12px; border-radius: 10px;
+  width: 100%; min-width: 0; font: inherit; padding: 12px; border-radius: 10px;
   border: 1.5px solid var(--line); background: #fff; min-height: 48px; color: var(--ink);
 }
+.topic-row .btn { width: 100%; }
 .best { background: var(--good-bg); color: var(--good); border-radius: 10px; padding: 10px 12px; font-weight: 600; }
 
 /* Quiz */
@@ -148,4 +151,8 @@ h2 { margin-top: 0; font-size: 1.2rem; }
 @media (min-width: 560px) {
   .result-actions { flex-direction: row; flex-wrap: wrap; }
   .result-actions .btn { flex: 1; min-width: 180px; }
+  /* roomier screens: put the topic dropdown and button side by side */
+  .topic-row { flex-direction: row; }
+  .topic-row select { flex: 1; width: auto; }
+  .topic-row .btn { width: auto; white-space: nowrap; }
 }
