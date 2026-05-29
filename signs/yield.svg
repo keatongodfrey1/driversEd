@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Yield sign">
+  <polygon points="6,12 94,12 50,92" fill="#fff" stroke="#c1121f" stroke-width="9"/>
+  <text x="50" y="38" fill="#c1121f" font-family="Arial, sans-serif" font-size="17"
+        font-weight="bold" text-anchor="middle" dominant-baseline="central">YIELD</text>
+</svg>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utah Drivers Ed Practice</title>
+  <meta name="description" content="Practice tests for the Utah learner permit / drivers ed written knowledge exam.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Utah Drivers Ed Practice</h1>
+    <p class="tagline">Written knowledge test &middot; pass at 80%</p>
+  </header>
+
+  <main id="app">
+    <!-- HOME -->
+    <section id="home" class="screen">
+      <div class="card">
+        <h2>Ready to practice?</h2>
+        <p class="muted">The real Utah written test is <strong>50 questions</strong> and you need
+          <strong>80% (40 correct)</strong> to pass. Questions here are drawn from the
+          2025&ndash;2026 Utah Driver Handbook.</p>
+        <p id="best-banner" class="best hidden"></p>
+
+        <button id="start-full" class="btn btn-primary btn-block">
+          Start full practice test (50 questions)
+        </button>
+
+        <div class="divider"><span>or practice one topic</span></div>
+
+        <div class="topic-row">
+          <label for="topic-select" class="sr-only">Choose a topic</label>
+          <select id="topic-select" aria-label="Choose a topic"></select>
+          <button id="start-topic" class="btn">Practice topic</button>
+        </div>
+
+        <p class="muted small" id="bank-info"></p>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="screen hidden">
+      <div class="card">
+        <div class="quiz-head">
+          <span id="progress" class="progress" aria-live="polite"></span>
+          <span id="score-so-far" class="score-chip"></span>
+        </div>
+        <div class="progress-bar"><div id="progress-fill"></div></div>
+
+        <p id="topic-tag" class="topic-tag"></p>
+        <div id="sign-wrap" class="sign-wrap hidden"><img id="sign-img" alt="Traffic sign" /></div>
+        <h2 id="question-text" class="question"></h2>
+
+        <div id="choices" class="choices" role="group" aria-label="Answer choices"></div>
+
+        <div id="feedback" class="feedback hidden" aria-live="polite">
+          <p id="feedback-line" class="feedback-line"></p>
+          <p id="explanation" class="explanation"></p>
+          <p id="source-line" class="source-line"></p>
+        </div>
+
+        <div class="quiz-foot">
+          <button id="quit-btn" class="btn btn-ghost">Quit</button>
+          <button id="next-btn" class="btn btn-primary hidden">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results" class="screen hidden">
+      <div class="card">
+        <h2 id="result-headline"></h2>
+        <p id="result-score" class="result-score"></p>
+        <p id="result-sub" class="muted"></p>
+
+        <div class="result-actions">
+          <button id="retry-missed" class="btn btn-primary hidden">Practice the ones I missed</button>
+          <button id="again-btn" class="btn">New full test</button>
+          <button id="home-btn" class="btn btn-ghost">Back to start</button>
+        </div>
+
+        <div id="missed-wrap" class="missed-wrap hidden">
+          <h3>Review your misses</h3>
+          <ol id="missed-list" class="missed-list"></ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footnote">
+    <p>Unofficial study tool. Always confirm rules in the official
+      <a href="https://dld.utah.gov" target="_blank" rel="noopener">Utah Driver Handbook (dld.utah.gov)</a>.</p>
+  </footer>
+
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

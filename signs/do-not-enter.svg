@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Do Not Enter sign">
+  <rect x="4" y="4" width="92" height="92" rx="8" fill="#fff" stroke="#222" stroke-width="3"/>
+  <circle cx="50" cy="50" r="38" fill="#c1121f"/>
+  <rect x="26" y="43" width="48" height="14" rx="2" fill="#fff"/>
+</svg>

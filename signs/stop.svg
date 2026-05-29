@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Stop sign">
+  <polygon points="30,5 70,5 95,30 95,70 70,95 30,95 5,70 5,30"
+           fill="#c1121f" stroke="#fff" stroke-width="5"/>
+  <text x="50" y="50" fill="#fff" font-family="Arial, sans-serif" font-size="26"
+        font-weight="bold" text-anchor="middle" dominant-baseline="central">STOP</text>
+</svg>

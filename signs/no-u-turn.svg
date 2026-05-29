@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="No U-turn sign">
+  <rect x="6" y="6" width="88" height="88" rx="8" fill="#fff" stroke="#222" stroke-width="3"/>
+  <!-- U-turn arrow -->
+  <path d="M38 72 V46 a12 12 0 0 1 24 0 V64" fill="none" stroke="#222" stroke-width="7"
+        stroke-linecap="round"/>
+  <polygon points="30,70 38,84 46,70" fill="#222"/>
+  <!-- prohibition circle + slash -->
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#c1121f" stroke-width="7"/>
+  <line x1="22" y1="22" x2="78" y2="78" stroke="#c1121f" stroke-width="7"/>
+</svg>

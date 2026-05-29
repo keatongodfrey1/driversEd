@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Pedestrian crossing warning sign">
+  <polygon points="50,4 96,50 50,96 4,50" fill="#bfe000" stroke="#222" stroke-width="3"/>
+  <circle cx="46" cy="32" r="5" fill="#222"/>
+  <path d="M46 38 L46 60 M46 44 L36 52 M46 44 L58 50 M46 60 L39 76 M46 60 L55 76"
+        stroke="#222" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

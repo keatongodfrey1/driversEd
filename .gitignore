@@ -1,0 +1,13 @@
+# Extracted text scratch files (regenerate with pdftotext if needed)
+*.txt
+
+# Node test dependency (jsdom, installed ad hoc with --no-save)
+node_modules/
+package-lock.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

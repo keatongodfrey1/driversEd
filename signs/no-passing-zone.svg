@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="No passing zone pennant sign">
+  <!-- pennant: triangle point to the right -->
+  <polygon points="8,12 92,50 8,88" fill="#f4c20d" stroke="#222" stroke-width="3"/>
+  <text x="34" y="50" fill="#222" font-family="Arial, sans-serif" font-size="9"
+        font-weight="bold" text-anchor="middle" dominant-baseline="central">NO</text>
+  <text x="40" y="64" fill="#222" font-family="Arial, sans-serif" font-size="9"
+        font-weight="bold" text-anchor="middle" dominant-baseline="central">PASSING</text>
+  <text x="30" y="36" fill="#222" font-family="Arial, sans-serif" font-size="9"
+        font-weight="bold" text-anchor="middle" dominant-baseline="central">ZONE</text>
+</svg>
